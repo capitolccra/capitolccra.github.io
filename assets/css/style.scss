@@ -2,3 +2,7 @@
 ---
 $header: #AF1831 !default;
 @import "{{ site.theme }}";
+
+th {
+  border-bottom: 1px dashed #AF1831;
+}
