@@ -1,14 +1,70 @@
-## Welcome to GitHub Pages
+# Welcome to The Cyber Lab Website
 
-You can use the [editor on GitHub](https://github.com/capitolccra/capitolccra.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+_This is not fully completed please use discretion while viewing this website as it does not fully reflect the cyberlab_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Info about the Cyber Lab
 
-### Markdown
+Our hours are as follows:
+Monday-Thrusday 11-5
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you are looking for help, **direct yourself elsewhere** because I'm kind of busy at the moment. Just kidding, scroll down and find the ticketing system under the calender!
 
-```markdown
+
+
+### SOC
+
+This is a test paragraph for the Security Operations Center. In the SOC we do log analysis, packet capture, and nap time!
+
+
+### Singal-9
+
+This is yet again, guess what? wait no... you'll never guess! LOL It's another test paragraph! How'd you know? you should become a hacker. . . Actually better yet, you should join Signal-9!
+
+
+
+### ICAM
+
+This is another test paragraph. But this time for the ICAM lab! In the ICAM lab we do all sorts of expierementation with IOT devices, physical access, and more!
+
+
+
+# Here is our calender!
+{% include calender.html %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Need help?
+
+**Insert flawless ticketing system here**
+Just kidding! We already have a flawless ticketing system! Its called the trash can! Just kidding. . .
+No but seriously just head [here](https://capitol.freshdesk.com/support/tickets/new)
+
+
+
+
+
+
+
+
+
+### This section isn't that important
+
+
+```Website Code:
 Syntax highlighted code block
 
 # Header 1
@@ -26,12 +82,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/capitolccra/capitolccra.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This is a Jekyll Theme idiot!
