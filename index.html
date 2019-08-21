@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <title>Capitol CCRA</title>
 <meta charset="UTF-8">
@@ -52,15 +53,17 @@ body, html {
 </style>
 <body>
 
-<!-- Navbar (sit on top) -->
+<!-- Navbar Buttons (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+	<a href="#SOC" class="w3-bar-item w3-button">SOC</a>
+	<a href="#icam" class="w3-bar-item w3-button">ICAM</a>
+	<a href="#calender" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calender"></i>CALENDER</a>
+	<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
     </a>
   </div>
@@ -83,51 +86,42 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">Captiol CCRA</h3>
   <p class="w3-center"><em>Center for Cybersecurity Research and Analysis</em></p>
-  <p>STUFF ABOUT CCRA GOES HERE</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-    </div>
+  <p class="w3-padding-64">STUFF ABOUT CCRA GOES HERE</p>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>EXTRA PARAGRAPH</p>
-    </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>NOTHING</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">100%</div>
-  </div>
-</div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
- 
-</div>
+<!-- Capitol SOC Information -->
+<div class="w3-content w3-padding-64" id="SOC">
+  <h3 class="w3-center">SOC</h3>
+  <p class="w3-center"><em>Security Operations Center</em></p>
+  <p class="w3-padding-64">STUFF ABOUT CCRA SOC GOES HERE</p>
+
+    
+	
+	
+<!-- Capitol ICAM Information -->
+<div class="w3-content w3-padding-64" id="icam">
+  <h3 class="w3-center">ICAM LAB</h3>
+  <p class="w3-center"><em>Identity Credentialing Access Management Lab</em></p>
+  <p class="w3-padding-64">STUFF ABOUT CCRA ICAM LAB GOES HERE</p>
+	
+
+
+
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
-</div>
+
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-64" id="calender">
   <h3 class="w3-center">CALENDER</h3>
   <p class="w3-center"><em>Cyberlab calender of events<br></em></p><br>
 
-  <!-- Calender of events iframe -->
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+  <!-- Google Calender of events iframe (Not currently an actual cyber lab calender) -->
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF" style="border-width:0" width="900" height="700" frameborder="0" scrolling="no"></iframe>
 
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -141,29 +135,16 @@ body, html {
   <h3 class="w3-center">CONTACT US</h3>
   <p class="w3-center"><em></em></p>
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Laurel, MD<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+  
+    <div class="w3-panel w3-center">
+      <div class="w3-large w3-center w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Room M201, Capitol Technology University<br>
       </div>
       <p>To submit a help ticket, visit the capitol freshdesk website linked below.</p>
       <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section">
-          <i class="fa fa-paper-plane"></i> FRESH DESK
-        </button>
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px"></div>
+		
+		<a href="https://capitol.freshdesk.com/support/home" target="_blank" class="w3-button w3-black w3-center w3-section"><i class="fa fa-paper-plane"></i> FRESH DESK</a>
       </form>
     </div>
   </div>
@@ -180,17 +161,10 @@ body, html {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
  
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
