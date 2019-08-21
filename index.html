@@ -43,6 +43,12 @@ body, html {
   min-height: 400px;
 }
 
+#main {
+	background-color: black;
+	background-position: center;
+	background-size: 75% 100%
+}
+	
 #grad1 {
   background-image: url("/assets/tile.gif");
   background-size: cover;
@@ -71,6 +77,8 @@ body, html {
 </head>
 
 <body id="grad1">
+
+<div id="main">
 
 <!-- Navbar Buttons (sit on top) -->
 <div class="w3-top">
@@ -204,6 +212,8 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-</script>		
+</script>
+	
+	</div>
 </body>
 </html>
