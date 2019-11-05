@@ -22,8 +22,8 @@ margin: 0;
 {
 padding:80px;
 text-align: center;
-background: ##990000;
-color: black;
+background: #990000;
+color: white;
 }
 
 
@@ -103,11 +103,11 @@ background: black;
   
  
 <div class="navbar">
-  <a href ="#Home"></a>
-  <a href ="#CBL"></a>
-  <a href ="#SOC"></a>
-  <a href ="#ICAM"></a>  
-  <a href ="#Contact"></a>  
+  <a href ="#Home">Home</a>
+  <a href ="#CBL">CBL</a>
+  <a href ="#SOC">SOC</a>
+  <a href ="#ICAM">ICAM</a>  
+  <a href ="#Contact">Contact</a>  
 </div>
 
 
